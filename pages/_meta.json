@@ -1,0 +1,31 @@
+{
+  "index": {
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "contributing": {
+    "title": "Contributing",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "reference": {
+    "title": "Reference Packs",
+    "type": "page",
+    "href": "https://github.com/moddedmc-wiki/minecraft-pack-wiki/blob/main/reference-pack",
+    "newWindow": true
+  }
+}
