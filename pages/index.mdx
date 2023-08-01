@@ -72,11 +72,32 @@ export function Card(props) {
       </Callout>
     </div>
     <div className="max-sm:px-4 flex flex-wrap gap-4 justify-center">
-      {/**<Card
-        title="Get Started"
-        description="Learn how to create your first mod using the Fabric modloader."
-        url="/getting-started"
+      <Card
+        title="Resource Packs"
+        description="Learn how to create your first resource pack."
+        url="/resource-packs/getting-started"
       />
+      <Card
+        title="Datapacks"
+        description="Learn how to create your first datapack."
+        url="/datapacks/getting-started"
+      />
+      <Card
+        title="Shaders"
+        description="Discover how to create your own shaders using GLSL."
+        url="/resource-packs/shaders"
+      />
+      <Card
+        title="Command Documentation"
+        description="A comprehensive documentation on commands available."
+        url="/datapacks/commands"
+      />
+      <Card
+        title="Animation"
+        description="Learn how to modify and create texture animations."
+        url="/datapacks/commands"
+      />
+      {/**
       <Card
         title="Adding Items"
         description="Learn how to create your first item and add interactivity to it."
@@ -135,6 +156,7 @@ export function Card(props) {
     </h2>
     <p className="text-lg font-normal my-2 text-gray-500 lg:text-xl dark:text-gray-400">
       These people have contributed to the wiki.
+
 </p>
 
   </div>
